@@ -59,7 +59,7 @@ export default function AppContextProvider({children}){
     }, []);
 
     useEffect(() => {
-      if(searchTitle.trim()){
+      if(searchTitle){
         fetchSearchResults();
       }
     }, [searchTitle]);

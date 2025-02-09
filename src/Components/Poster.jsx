@@ -14,7 +14,7 @@ const Poster = (props) => {
 
     const isFavorite = favList.some(f => f.id === item.id);
 
-    const image_path = item.poster_path ? `https://image.tmdb.org/t/p/original${item.poster_path}` :"https://fakeimg.pl/600x400?text=oops+";
+    const image_path = item.poster_path ? `https://image.tmdb.org/t/p/original${item.poster_path}` :`https://fakeimg.pl/600x400?text=${item.title}`;
 
     const addFav = (e) => {
         e.stopPropagation();
