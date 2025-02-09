@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+🎬 BingeBox – Your Ultimate Movie and TV Show Explorer
+BingeBox is a React-based web app that allows users to explore trending movies and TV series using data from The Movie Database (TMDb) API. Users can easily add their favorite content to a personalized list, and enjoy a smooth browsing experience with an intuitive UI.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+Browse Trending Movies and TV Shows: Powered by TMDb API
+Add/Remove Favorites: Save your favorite movies and TV shows for later viewing
+Dynamic Filtering and Display: Smooth transitions and UI enhancements with Tailwind CSS
+Toast Notifications: Instant feedback using react-hot-toast
+State Management: Combination of Redux Toolkit and Context API
+Routing: Seamless navigation with react-router-dom
 
-## Available Scripts
+🚀 Technologies Used
+React – UI Library
+Redux Toolkit – For global state management
+Context API – For managing lightweight state
+react-router-dom – For routing and navigation
+react-hot-toast – For notifications
+Tailwind CSS – For styling and responsive design
+TMDb API – Data source for movies and TV shows
 
-In the project directory, you can run:
+📦 Installation
+Clone the repository
 
-### `yarn start`
+bash
+Copy
+Edit
+git clone https://github.com/Hadiquaa/BingeBox-Tmdb.git
+cd BingeBox-Tmdb
+Install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy
+Edit
+yarn install
+Set up environment variables
+Create a .env file in the root directory and add your TMDb API key:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ini
+Copy
+Edit
+REACT_APP_TMDB_API_KEY=your_api_key_here
+Start the development server
 
-### `yarn test`
+bash
+Copy
+Edit
+yarn start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌟 Usage
+Home Page: Displays the most popular movie and TV series.
+Favorites: View a grid of your favorite content, with an option to remove them.
+Add to Favorites: Use the heart icon on any movie/TV show to add it to your favorites.
+Remove from Favorites: Accessible through the Favorites page.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💡 Future Improvements
+Add pagination for better content browsing
+Include user authentication for personalized watchlists
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📜 License
+This project is licensed under the MIT License.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📬 Contact
+Author: Hadiqa Taiba
+GitHub: Hadiquaa
+Email: hadiqua350@gmail.com
